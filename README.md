@@ -19,6 +19,7 @@ Calcula o valor total da locação com base nos dias e aplica os seguintes desco
 - De 14 a 20 dias: 20% de desconto.
 - De 21 a 27 dias: 30% de desconto.
 - 28 dias ou mais: 50% de desconto.
+
 Lança uma Exception se o número de dias for menor ou igual a zero.
 
 ## Testes com JUnit
