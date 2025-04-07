@@ -42,4 +42,4 @@ Os testes automatizados cobrem todos os cenários de uso da classe Veiculo, incl
     - JUnit 5
     - Executar preferencialmente no Intellij (onde foi criado o projeto)
 
-#Feito por: Maria Clara - RM 557478 - 2ESPX
+# Feito por: Maria Clara - RM 557478 - 2ESPX
