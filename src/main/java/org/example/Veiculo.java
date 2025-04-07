@@ -15,7 +15,10 @@ public class Veiculo {
         return this.valorDiaria * dias;
     }
 
-    public double desconto(int dias){
+    public double desconto(int dias) throws Exception {
+        if (dias <=0){
+            throw new Exception("O valor de dias deve ser maior que 0.");
+        }
         double total = 0;
         if (dias >=7 && dias < 14){
             total = calcularCusto(dias)*0.9;
